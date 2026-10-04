@@ -1,0 +1,26 @@
+1.Tambahkan baris Koleksi x = new Koleksi("X01", "Uji", 2026); di method main. Apa pesan error dari kompiler dan mengapa?
+ 	jawaban
+Compiler menghasilkan error Koleksi is abstract; cannot be instantiated. Hal ini terjadi karena kelas Koleksi merupakan abstract class, sehingga tidak dapat dibuat objek secara langsung menggunakan new Koleksi(...).
+2.Pada kelas Buku, ubah nama method hitungDenda menjadi hitungdenda. Apa yang terjadi jika anotasi @Override ada, dan jika dihapus?
+	jawaban
+Jika nama method hitungDenda diubah menjadi hitungdenda dan @Override tetap digunakan, terjadi error karena nama method tidak sama dengan method yang dioverride. Jika @Override dihapus, error pada @Override hilang, tetapi program tetap error karena class Buku masih harus mengimplementasikan method hitungDenda(int) dari BisaDipinjam.
+3.Tambahkan new Buku("B009", "", 2020, "Anonim"). Apa yang terjadi saat program dijalankan?
+	jawaban 
+Ketika new Buku("B009", "", 2020, "Anonim") dijalankan, program menghasilkan IllegalArgumentException dengan pesan Judul tidak boleh kosong. Hal ini terjadi karena judul buku diberikan dalam kondisi kosong (""), sedangkan constructor Koleksi tidak mengizinkan judul kosong.
+4.Ubah private StatusKoleksi status menjadi public, lalu ubah status B002 langsung dari main menjadi TERSEDIA saat masih dipinjam. Aturan apa yang dilanggar?
+	jawaban 
+1. Koleksi dibuat langsung
+
+Compiler menghasilkan error karena Koleksi adalah abstract class, sehingga tidak bisa dibuat objek secara langsung menggunakan new Koleksi(...).
+
+2. hitungDenda diubah menjadi hitungdenda
+
+Jika @Override tetap digunakan, terjadi error karena nama method tidak sama dengan method yang ada pada parent/interface. Jika @Override dihapus, error tersebut hilang, tetapi Buku tetap error karena belum mengimplementasikan hitungDenda(int).
+
+3. Membuat Buku dengan judul kosong
+
+Program menghasilkan IllegalArgumentException: Judul tidak boleh kosong karena constructor Koleksi tidak mengizinkan judul kosong.
+
+4. status dibuat public dan diubah langsung
+
+Aturan yang dilanggar adalah enkapsulasi. Status koleksi seharusnya tetap dikendalikan dari dalam class melalui method seperti pinjam() dan kembalikan(), bukan diubah langsung dari luar class.
