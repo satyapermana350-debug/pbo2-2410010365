@@ -103,7 +103,7 @@ dilebarkan](img/tampilan_lebar.png)
 Screenshot berikut memperlihatkan susunan panel dan layout pada tab
 Design di NetBeans.
 
-![Tab Design Form Anggota Perpustakaan dan Navigator]img/(navigator.png)
+![Tab Design Form Anggota Perpustakaan dan Navigator](img/navigator.png)
 
 ## Jawaban Eksperimen Praktikum 2 --- Galeri Layout Manager
 
@@ -249,3 +249,7 @@ disesuaikan dengan pekerjaan praktikum saya.
 4.  Apache NetBeans. *Designing a Swing GUI in NetBeans IDE*.
     https://netbeans.apache.org/
 5.  FormDev Software. *FlatLaf*. https://www.formdev.com/flatlaf/
+
+
+
+
