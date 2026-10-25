@@ -8,7 +8,7 @@ import com.formdev.flatlaf.FlatLightLaf;
 
 /**
  *
- * @author lenov
+ * @author ASUS
  */
 public class FormAnggotaPerpustakaan extends javax.swing.JFrame {
     
