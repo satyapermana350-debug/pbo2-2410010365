@@ -9,7 +9,7 @@
 - **Nama Proyek:** `p06-validasi-input`
 - **Repository:** `pbo2-2410010365`
 - **Tautan Repository:** https://github.com/satyapermana350-debug/pbo2-2410010365
-- **Form:** `FormAnggotaPerpustakaan`
+- **Form:** `FormAnggota`
 
 ## 2. Deskripsi Proyek
 
@@ -51,8 +51,8 @@ Peer review dilakukan oleh **Muhammad Zihni Syauqi** terhadap form milik **Dian 
 
 | No. | Temuan Peer Review | Skor | Perbaikan yang Dilakukan | Commit |
 |---|---|---|---|---|
-| 1 | Navigasi Tab belum mencapai tombol Batal dan Daftar. | 3 (Mayor) | Mengatur ulang urutan komponen melalui jendela Navigator (Move Up/Move Down). | `ISI_HASH_COMMIT_1` |
-| 2 | Belum tersedia tooltip pada kolom NPM. | 2 (Minor) | Menambahkan `toolTipText` pada `npmField` dengan isi "NPM harus terdiri dari 10 digit angka." | `ISI_HASH_COMMIT_2` |
+| 1 | Navigasi Tab belum mencapai tombol Batal dan Daftar. | 3 (Mayor) | Mengatur ulang urutan komponen melalui jendela Navigator (Move Up/Move Down). | `30313c0` |
+| 2 | Belum tersedia tooltip pada kolom NPM. | 2 (Minor) | Menambahkan `toolTipText` pada `npmField` dengan isi "NPM harus terdiri dari 10 digit angka." | `30313c0` |
 
 ## 6. Jawaban Eksperimen Praktikum 4
 
